@@ -474,8 +474,12 @@ h1 {
     }
 
     @include tablet {
-      width: 100%;
+      width: 450px;
       position: relative;
+      margin: 0 auto;
+    }
+    @include mobile {
+      width: auto;
     }
 
     img {
@@ -715,10 +719,10 @@ h1 {
       overflow: hidden;
     }
     @include tablet {
-      width: 100%;
+      width: 450px;
     }
     @include mobile {
-      max-height: 350px;
+      width: 100%;
     }
 
     img {
