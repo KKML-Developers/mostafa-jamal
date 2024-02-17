@@ -28,15 +28,38 @@ const About = () => {
     if (loading) { return <Loading /> }
     const history = data?.history;
     const seoProps = {
-        title: 'History of | Mostafa Akhter',
-        description: "It was through Mostafa’s work at his grandfather’s publishing company during the summers that he discovered his love for the paper industry and assumed a full-time job as Deputy Managing Director. Mostafa says he owes most of his business acumen to his grandfather, who gave him his foundational training. This knowledge, paired with his love of nature, inspired Mostafa to open a business with his brother in 2021: Magura Agriculture Park Limited. This organic agriculture farm allows a one-stop solution for people to reach farmers and fresh products with ease.",
-        name: "homeContent.title",
+        title: 'History of | Mostafa Jamal',
+        description: "Explore the rich history and visionary leadership of Mr. Mohiuddin Ahmed, the founder of Khoshroz Kitab Mahal and NDC Auto Brick. Discover his inspiring message emphasizing entrepreneurship, environmental sustainability, and collaboration. Learn about the journey of Mr. Mostafa Jafir Mohiuddin, Deputy Managing Director, and Mr. Mostafa Akhter Mohiuddin, Chairman, as they continue the legacy of innovation and community impact.",
+        name: "Mostafa Jamal Mohiuddin",
+        tags: [
+            "Mostafa Jamal Mohiuddin",
+            "Managing Director",
+            "Khoshroz Kitab Mahal",
+            "Magura Group",
+            "NDC Auto Brick",
+            "Magura Paper Mills Ltd",
+            "Bangladesh Monospool Paper Manufacturing Company Ltd",
+            "Paper Processing & Packaging Ltd",
+            "Jatiya Mudran",
+            "Business Leader",
+            "Entrepreneurship",
+            "Leadership Skills",
+            "Business Acumen",
+            "Community Involvement",
+            "Bangladesh Business",
+            "Leadership Excellence",
+            "Visionary Leader",
+            "Corporate Management",
+            "Bangladesh Economy",
+            "Business Ventures",
+            "Community Impact"
+        ],
         type: 'website',
-        image: 'https://res.cloudinary.com/dfaw271y6/image/upload/v1705831588/DMD_website/DMD_photo1_hsmn2l.jpg',
+        image: 'https://res.cloudinary.com/dfaw271y6/image/upload/v1705914737/MD-sir_k3wop8.jpg',
         socialLinks: [
             {
                 icon: 'brands-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100088074433903',
+                link: 'https://www.facebook.com/profile.php?id=100004437858898',
             }
         ],
     };
