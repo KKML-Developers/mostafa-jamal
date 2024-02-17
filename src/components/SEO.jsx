@@ -15,6 +15,7 @@ export const SEO = ({ title, description, name, type, image, socialLinks, tags }
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
             <meta name="keywords" content={tags}></meta>
+            <meta name="google-site-verification" content="Haio5E0BtLUAwiECRPWpfa5LqA70sBDyYFJqFjaRQCY" />
             {image && <meta property="og:image" content={image} />}
             {/* End Facebook tags */}
 
