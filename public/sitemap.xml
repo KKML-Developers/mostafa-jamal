@@ -3,14 +3,14 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://www.mostafamohiuddin.com/</loc>
+    <loc>https://www.mostafajamal.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- History Page -->
   <url>
-    <loc>https://www.mostafamohiuddin.com/history</loc>
+    <loc>https://www.mostafajamal.com/history</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

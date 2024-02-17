@@ -52,7 +52,7 @@ const Home = () => {
             <SEO {...seoProps} />
             <section className="home">
                 <div className="wrapper">
-                    <div className="row">
+                    <div className="row align-items-center">
                         <div className="col-md-12">
                             <div className="home__title">
                                 <h1>{homeContent?.title}</h1>
